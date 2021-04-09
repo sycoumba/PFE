@@ -1,0 +1,53 @@
+{% extends 'main.html' %}
+{% block content %}
+
+<!-- <br>
+<div class="row">
+	<div class="col-md-5">
+		<h5>Patients:</h5>
+		<hr>
+		<div class="card card-body">
+			<a class="btn btn-primary  btn-sm btn-block" href="">Enregistrer un Patient</a>
+			<table class="table table-sm">
+				<tr>
+					<th>ID</th>
+					<th>nom</th>
+                    <th>prenom</th>
+                    <th>telephone</th>
+                    <th>age</th>
+                    <th>adresse</th>
+				</tr>
+             {% for patient in patients %}
+              <th>{{patient.id}}</th>
+              <th>{{patient.nom}}</th>
+              <th>{{patient.prenom}}</th>
+              <th>{{patient.telephone}}</th>
+              <th>{{patient.age}}</th>
+              <th>{{patient.adresse}}</th>
+             {% endfor %}
+			</table>
+		</div>
+	</div>
+
+	<div class="col-md-7">
+		<h5>Liste des Rendez-Vous</h5>
+		<hr>
+		<div class="card card-body">
+			<a class="btn btn-primary  btn-sm btn-block" href="">Ajouter un Rendez-Vous</a>
+			<table class="table table-sm">
+				<tr>
+                    <th>Patient</th>
+					<th>Date du Rendez-Vous</th>
+					<th>Status</th>
+					<th>Mise à Jour</th>
+					<th>Supprimer</th>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+
+</div> -->
+
+
+{% endblock content%}
